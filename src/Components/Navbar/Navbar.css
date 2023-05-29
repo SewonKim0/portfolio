@@ -5,7 +5,6 @@ div#navbar {
 
     position: sticky;
     top: 0%;
-    z-index: 999;
     margin-left: 3%;
     margin-right: 3%;
 
@@ -16,13 +15,16 @@ div#navbar {
 }
 
 /* Navbar: Link States */
-div#navbar > a:link, div#navbar > a:visited {
-    color: white;
-}
 div#navbar > a:hover {
     color: lightblue;
 }
 div#navbar > a:active {
+    color: aquamarine;
+}
+div#navbar > a > h3:hover {
+    color: lightblue;
+}
+div#navbar > a > h3:active {
     color: aquamarine;
 }
 

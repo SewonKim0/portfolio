@@ -15,6 +15,11 @@
   margin: 0%;
   padding: 0%;
   scroll-behavior: smooth;
+  color: white;
+}
+/* General: Nav Sources */
+.nav-source {
+  scroll-margin-top: 4em;
 }
 
 /* Main Containers */

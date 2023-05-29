@@ -3,7 +3,7 @@ import "./About.css";
 export default function About() {
     let processEnv = process.env.PUBLIC_URL;
 
-    return <div id="about">
+    return <div id="about" className="nav-source">
         {/* Text */}
         <div id="text">
             <h3> About: </h3>

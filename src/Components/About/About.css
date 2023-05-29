@@ -8,7 +8,6 @@ div#about {
 
     display: flex;
     flex-direction: row;
-    align-items: center;
 }
 
 /* About: Text */

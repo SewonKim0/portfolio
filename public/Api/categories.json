@@ -1,0 +1,33 @@
+[
+    {
+        "title": "Languages:",
+        "icons": [
+            "python",
+            "js",
+            "ts",
+            "java",
+            "cs",
+            "cpp"
+        ]
+    },
+
+    {
+        "title": "Front-End Frameworks:",
+        "icons": [
+            "react",
+            "next",
+            "node",
+            "css",
+            "html"
+        ]
+    },
+
+    {
+        "title": "Development Environments:",
+        "icons": [
+            "vscode",
+            "vs",
+            "android-studio"
+        ]
+    }
+]
