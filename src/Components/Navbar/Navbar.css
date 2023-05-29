@@ -1,7 +1,11 @@
 /* Navbar: Container */
 div#navbar {
+    width: 94%;
     height: 3em;
 
+    position: sticky;
+    top: 0%;
+    z-index: 999;
     margin-left: 3%;
     margin-right: 3%;
 
