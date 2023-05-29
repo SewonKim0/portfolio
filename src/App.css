@@ -1,16 +1,3 @@
-/* General */
-* {
-  margin: 0%;
-  padding: 0%;
-}
-
-/* Main Containers */
-body {
-  margin: 0%;
-  padding: 0%;
-  font-family: var(--font1);
-}
-
 /* Fonts */
 @font-face {
   font-family: inter;
@@ -20,4 +7,25 @@ body {
 /* Variables */
 :root {
   --font1: inter, sans-serif;
+  --color1: rgba(0, 0, 0, 0.5);
+}
+
+/* General */
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+/* Main Containers */
+body {
+  background-image: url("/public/Images/piano-double.jpg");
+  background-size: 100%;
+
+  margin: 0%;
+  padding: 0%;
+
+  font-family: var(--font1);
+}
+div#root {
+  width: 100%;
 }

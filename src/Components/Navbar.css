@@ -1,0 +1,28 @@
+/* Navbar: Container */
+div#navbar {
+    height: 3em;
+
+    margin-left: 3%;
+    margin-right: 3%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+
+/* Navbar: Link States */
+div#navbar > a:link, div#navbar > a:visited {
+    color: white;
+}
+div#navbar > a:hover {
+    color: lightblue;
+}
+div#navbar > a:active {
+    color: aquamarine;
+}
+
+/* Navbar: Between Lines */
+div#navbar > h3 {
+    color: white;
+}
