@@ -12,7 +12,7 @@ export default function Header() {
         {/* Icons */}
         <div id="icons">
             {/* Youtube */}
-            <a>
+            <a href="https://www.youtube.com/channel/UCOkuvvVxC3kBF26IcPeJk9g">
                 <img
                     src={publicUrl + "/Images/youtube.png"}
                     width="auto"
@@ -23,7 +23,7 @@ export default function Header() {
             </a>
 
             {/* Linkedin */}
-            <a>
+            <a href="https://www.linkedin.com/in/sewon-kim-b0285423b/">
                 <img
                     src={publicUrl + "/Images/linkedin.png"}
                     width="auto"
@@ -34,7 +34,7 @@ export default function Header() {
             </a>
 
             {/* Github */}
-            <a>
+            <a href="https://github.com/SewonKim0">
                 <img
                     src={publicUrl + "/Images/github.png"}
                     width="auto"

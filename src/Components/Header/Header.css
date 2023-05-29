@@ -48,3 +48,7 @@ div#header > div#icons > a {
     align-items: center;
     justify-content: center;
 }
+/* Header: Icon Hover */
+div#header > div#icons > a > img:hover {
+    opacity: 0.7;
+}

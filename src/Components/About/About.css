@@ -1,0 +1,45 @@
+/* About: Container */
+div#about {
+    background-color: var(--color1);
+    width: 90%;
+    border-radius: 1em;
+
+    margin-top: 1em;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* About: Text */
+div#about > div#text {
+    width: 60%;
+
+    margin: 1em;
+
+    display: flex;
+    flex-direction: column;
+}
+div#about > div#text > h3 {
+    color: white;
+
+    margin-bottom: 0.5em;
+}
+div#about > div#text > p {
+    color: white;
+}
+
+/* About: Image */
+div#about > div#image {
+    width: 30%;
+    border: 1px solid white;
+    border-radius: 1em;
+
+    margin: 1em;
+
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
