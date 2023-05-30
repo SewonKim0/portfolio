@@ -1,0 +1,62 @@
+/* Albums: Container */
+div#albums {
+    background-color: var(--color1);
+    width: 90%;
+    border-radius: 1em;
+
+    margin-top: 1em;
+}
+
+/* Albums: Heading */
+div#albums > h3 {
+    margin: 1em;
+}
+
+/* Albums: Window */
+div#albums > div#window {
+    margin: 1em;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Albums: Buttons */
+div#albums > div#window > button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    width: 10%;
+}
+div#albums > div#window > button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Albums: Image */
+div#albums > div#window > div {
+    width: 80%;
+    border: 1px solid white;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Albums: Text */
+div#albums > div#text {
+    background-color: var(--color1);
+    border-radius: 1em;
+
+    margin: 1em;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* Albums: Name */
+div#albums > div#text > p > span {
+    font-weight: bold;
+}
+/* Albums: Description */
+div#albums > div#text > p {
+    margin: 0.5em;
+}

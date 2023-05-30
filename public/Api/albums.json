@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Album 5",
+        "description": "A 12 song album inspired by my various experiences during the first semester of NYU.",
+        "imgPath": "/Images/Albums/album5.jpg",
+        "url": "https://www.youtube.com/watch?v=j29N75wq6hM&list=PLK8AjScya4-uJSXUlQTUrLZeGUgXQM4SD&index=1"
+    },
+
+    {
+        "name": "Album 4",
+        "description": "A 16 song album inspired by the summer season in rural New Jersey. Made after my senior year of high school.",
+        "imgPath": "/Images/Albums/album4.jpg",
+        "url": "https://www.youtube.com/watch?v=LtnMJPLGSS0&list=PLK8AjScya4-v90D2kJvJrOKSnn28sQi5v"
+    },
+
+    {
+        "name": "Album 3",
+        "description": "This album was revolutionary to my development as a composer and has changed my style of composing ever since",
+        "imgPath": "/Images/Albums/album3.jpg",
+        "url": "https://www.youtube.com/watch?v=K9tgXfkRb_Y&list=PLK8AjScya4-sfvhO4_feOI2DEynbh5Vvc&index=1"
+    }
+]

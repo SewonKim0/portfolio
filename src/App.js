@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Header from "./Components/Header/Header";
 import About from "./Components/About/About";
 import Skills from "./Components/Skills/Skills"
+import Albums from "./Components/Albums/Albums";
 
 function App() {
   //processEnv
@@ -30,6 +31,7 @@ function App() {
     <Skills
       iconMap={iconMap}
     />
+    <Albums />
   </>
 }
 
