@@ -29,7 +29,7 @@ export default function Albums() {
 
     return <div id="albums">
         {/* Heading */}
-        <h3> Projects: </h3>
+        <h3> Albums: </h3>
 
         {/* Window */}
         <div id="window">
