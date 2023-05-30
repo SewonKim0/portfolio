@@ -1,0 +1,82 @@
+/* Projects: Container */
+div#projects {
+    width: 90%;
+    background-color: var(--color1);
+    border-radius: 1em;
+
+    margin-top: 1em;
+}
+
+/* Projects: Header */
+div#projects > h3 {
+    margin: 1em;
+}
+
+/* Project: Container */
+div#project {
+    background-color: var(--color1);
+    border-radius: 1em;
+
+    margin: 1em;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Project: Text */
+div#project > div#text {
+    width: 60%;
+    margin: 1em;
+
+    display: flex;
+    flex-direction: column;
+}
+div#project > div#text > p {
+    font-size: 0.8em;
+
+    margin-top: 0.2em;
+}
+
+/* Project: Icons */
+div#project > div#text > div {
+    margin-top: 0.2em;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Project: Icon */
+div#project > div#text > div > div {
+    background-color: white;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 0.3em;
+    border: 1px solid white;
+
+    margin-right: 1em;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+div#project > div#text > div > div > img:hover {
+    opacity: 0.7;
+}
+
+/* Project: Image */
+div#project > div#image {
+    width: 40%;
+    border-left: 1px solid white;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

@@ -6,6 +6,7 @@ import Header from "./Components/Header/Header";
 import About from "./Components/About/About";
 import Skills from "./Components/Skills/Skills"
 import Albums from "./Components/Albums/Albums";
+import Projects from "./Components/Projects/Projects";
 
 function App() {
   //processEnv
@@ -23,6 +24,10 @@ function App() {
         setIconMap(json);
       })
   }, [])
+  //if iconMap is null: show loading msg
+  if (iconMap === null) {
+    return <p> Loading IconMap... </p>;
+  }
 
   return <>
     <Navbar />
@@ -32,6 +37,9 @@ function App() {
       iconMap={iconMap}
     />
     <Albums />
+    <Projects
+      iconMap={iconMap}
+    />
   </>
 }
 

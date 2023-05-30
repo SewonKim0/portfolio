@@ -17,11 +17,6 @@ export default function Skills({iconMap}) {
                 setCategories(json);
             })
     }, [])
-
-    //if iconMap is null: display loading msg
-    if (iconMap === null) {
-        return <p> Loading IconMap... </p>;
-    }
     //if categories is null: display loading msg
     if (categories === null) {
         return <p> Loading Categories... </p>;
