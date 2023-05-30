@@ -1,0 +1,16 @@
+{
+    "android-studio": "/Images/Icons/android-studio.png",
+    "cpp": "/Images/Icons/cpp.png",
+    "cs": "/Images/Icons/cs.jpg",
+    "css": "/Images/Icons/css.png",
+    "html": "/Images/Icons/html.jpg",
+    "java": "/Images/Icons/java.png",
+    "js": "/Images/Icons/js.png",
+    "next": "/Images/Icons/next.jpg",
+    "node": "/Images/Icons/node.webp",
+    "python": "/Images/Icons/python.png",
+    "react": "/Images/Icons/react.webp",
+    "ts": "/Images/Icons/ts.png",
+    "vs": "/Images/Icons/vs.webp",
+    "vscode": "/Images/Icons/vscode.png"
+}
