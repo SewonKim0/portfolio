@@ -22,7 +22,7 @@ export default function Projects({iconMap}) {
         return <p> Loading Projects... </p>;
     }
 
-    return <div id="projects">
+    return <div id="projects" className="nav-source">
         {/* Header */}
         <h3> Projects: </h3>
 
@@ -46,7 +46,7 @@ function Project({project, iconMap}) {
     //unpack project
     let {name, text, imgPath, icons, url} = project;
 
-    return <div id="project" className="nav-source">
+    return <div id="project">
         {/* Text */}
         <div id="text">
             {/* Name */}

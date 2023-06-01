@@ -31,6 +31,14 @@ div#project > div#text {
     display: flex;
     flex-direction: column;
 }
+/* Project: Name Link States */
+div#project > div#text > a:hover, div#project > div#text > a > h3:hover {
+    color: lightblue;
+}
+div#project > div#text > a:active, div#project > div#text > a > h3:active {
+    color: aquamarine;
+}
+/* Project: Description */
 div#project > div#text > p {
     font-size: 0.8em;
 

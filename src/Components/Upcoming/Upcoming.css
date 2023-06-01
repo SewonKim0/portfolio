@@ -22,6 +22,7 @@ div#upcoming > div {
     display: flex;
     flex-direction: column;
 }
+
 /* Entry: Title */
 div#upcoming > div > a > h3 {
     margin: 0.5em;
@@ -29,6 +30,14 @@ div#upcoming > div > a > h3 {
 div#upcoming > div > h3 {
     margin: 0.5em;
 }
+/* Entry: Title Link States */
+div#upcoming > div > a:hover, div#upcoming > div > a > h3:hover {
+    color: lightblue;
+}
+div#upcoming > div > a:active, div#upcoming > div > a > h3:active {
+    color: aquamarine;
+}
+
 /* Entry: Description */
 div#upcoming > div > p {
     margin: 0.5em;
