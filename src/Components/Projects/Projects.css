@@ -39,7 +39,7 @@ div#project > div#text > p {
 
 /* Project: Icons */
 div#project > div#text > div {
-    margin-top: 0.2em;
+    margin-top: 0.3em;
 
     display: flex;
     flex-direction: row;

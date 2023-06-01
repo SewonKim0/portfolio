@@ -46,7 +46,7 @@ function Project({project, iconMap}) {
     //unpack project
     let {name, text, imgPath, icons, url} = project;
 
-    return <div id="project">
+    return <div id="project" className="nav-source">
         {/* Text */}
         <div id="text">
             {/* Name */}

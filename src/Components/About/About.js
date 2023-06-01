@@ -11,7 +11,7 @@ export default function About() {
         </div>
 
         {/* Image */}
-        <div id="image">
+        <div id="image" className="nav-source">
             <img
                 src={processEnv + "/Images/me.jpg"}
                 width="100%"

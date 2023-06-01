@@ -16,7 +16,7 @@
         "text": "Fast and intuitive windows forms application for notetaking; integrates auto-highlighting, file storage system, and responsive UI to amplify a student's academic proficiency.",
         "imgPath": "/Images/Projects/quicknotes2.png",
         "icons": [
-            "cs"
+            "cs", "vs"
         ],
         "url": "https://github.com/SewonKim0/QuickNotes2"
     }

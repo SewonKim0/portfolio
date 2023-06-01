@@ -1,0 +1,36 @@
+/* Upcoming: Container */
+div#upcoming {
+    width: 90%;
+    background-color: var(--color1);
+    border-radius: 1em;
+
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+/* Upcoming: Title */
+div#upcoming > h3 {
+    margin: 1em;
+}
+
+/* Entry: Container */
+div#upcoming > div {
+    background-color: var(--color1);
+    border-radius: 1em;
+
+    margin: 1em;
+
+    display: flex;
+    flex-direction: column;
+}
+/* Entry: Title */
+div#upcoming > div > a > h3 {
+    margin: 0.5em;
+}
+div#upcoming > div > h3 {
+    margin: 0.5em;
+}
+/* Entry: Description */
+div#upcoming > div > p {
+    margin: 0.5em;
+    margin-top: 0em;
+}

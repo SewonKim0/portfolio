@@ -27,7 +27,7 @@ export default function Albums() {
         return <p> Loading Albums... </p>;
     }
 
-    return <div id="albums">
+    return <div id="albums" className="nav-source">
         {/* Heading */}
         <h3> Albums: </h3>
 

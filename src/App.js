@@ -7,6 +7,7 @@ import About from "./Components/About/About";
 import Skills from "./Components/Skills/Skills"
 import Albums from "./Components/Albums/Albums";
 import Projects from "./Components/Projects/Projects";
+import Upcoming from "./Components/Upcoming/Upcoming";
 
 function App() {
   //processEnv
@@ -40,6 +41,7 @@ function App() {
     <Projects
       iconMap={iconMap}
     />
+    <Upcoming />
   </>
 }
 
