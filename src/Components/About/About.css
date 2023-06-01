@@ -53,9 +53,25 @@ div#about > div#image {
     div#about {
         width: 60%;
     }
+    /* Text: Font Size Adjust */
+    div#about > div#text > p {
+        font-size: 1.1em;
+    }
+    /* Image: Size Adjust */
+    div#about > div#image {
+        width: 25%;
+    }
 }
 @media (min-width: 1100px) {
     div#about {
         width: 50%;
+    }
+    /* Text: Font Size Adjust */
+    div#about > div#text > p {
+        font-size: 1.2em;
+    }
+    /* Image: Size Adjust */
+    div#about > div#image {
+        width: 22%;
     }
 }
