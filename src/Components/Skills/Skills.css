@@ -54,3 +54,20 @@ div#category > div > div {
 div#category > div > div > img:hover {
     opacity: 0.7;
 }
+
+/* Media Query: Responsive Design */
+@media (min-width: 600px) {
+    div#skills {
+        width: 70%;
+    }
+}
+@media (min-width: 800px) {
+    div#skills {
+        width: 60%;
+    }
+}
+@media (min-width: 1100px) {
+    div#skills {
+        width: 50%;
+    }
+}

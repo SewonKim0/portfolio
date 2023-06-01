@@ -87,3 +87,20 @@ div#project > div#image {
     align-items: center;
     justify-content: center;
 }
+
+/* Media Query: Responsive Design */
+@media (min-width: 600px) {
+    div#projects {
+        width: 70%;
+    }
+}
+@media (min-width: 800px) {
+    div#projects {
+        width: 60%;
+    }
+}
+@media (min-width: 1100px) {
+    div#projects {
+        width: 50%;
+    }
+}

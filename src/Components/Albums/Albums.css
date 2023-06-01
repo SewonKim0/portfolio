@@ -60,3 +60,20 @@ div#albums > div#text > p > span {
 div#albums > div#text > p {
     margin: 0.5em;
 }
+
+/* Media Query: Responsive Design */
+@media (min-width: 600px) {
+    div#albums {
+        width: 70%;
+    }
+}
+@media (min-width: 800px) {
+    div#albums {
+        width: 60%;
+    }
+}
+@media (min-width: 1100px) {
+    div#albums {
+        width: 50%;
+    }
+}

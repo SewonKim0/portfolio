@@ -4,5 +4,12 @@
         "description": "Mini album inspired by the winter season, projected to be released in summer 2023",
         "url": true,
         "urlPath": "https://sewonkim0.github.io/album6preview/"
+    },
+
+    {
+        "name": "Music Player",
+        "description": "Web-based music player for streaming and uploading music, to be released in the fall",
+        "url": false,
+        "urlPath": ""
     }
 ]
