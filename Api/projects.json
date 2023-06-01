@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Grade Calculator",
+        "text": "Calculate your final grades using this website! Enter your scores and receive a predicted final grade immediately!",
+        "imgPath": "/Images/Projects/grade-calculator.png",
+        "icons": [
+            "react",
+            "js",
+            "node"
+        ],
+        "url": "https://sewonkim0.github.io/Grade-Calculator/"
+    },
+
+    {
+        "name": "QuickNotes 2",
+        "text": "Fast and intuitive windows forms application for notetaking; integrates auto-highlighting, file storage system, and responsive UI to amplify a student's academic proficiency.",
+        "imgPath": "/Images/Projects/quicknotes2.png",
+        "icons": [
+            "cs", "vs"
+        ],
+        "url": "https://github.com/SewonKim0/QuickNotes2"
+    }
+]
