@@ -1,11 +1,13 @@
 import "./Albums.css";
-import { useState, useEffect } from "react";
-import { BiChevronLeft, BiChevronRight } from "react-icons/bi";
+import { useState, useEffect, useRef } from "react";
+import { BiChevronLeft, BiChevronRight, BiPlayCircle } from "react-icons/bi";
 
 export default function Albums() {
     //process env
     let processEnv = process.env.PUBLIC_URL;
 
+    //ref: play icon container
+    let playIconContainer = useRef();
     //state: albumIndex
     const [albumIndex, setAlbumIndex] = useState(0);
 
@@ -21,7 +23,6 @@ export default function Albums() {
                 setAlbums(json);
             })
     }, [])
-
     //if albums is null: show loading msg
     if (albums === null) {
         return <p> Loading Albums... </p>;
@@ -49,13 +50,41 @@ export default function Albums() {
             </button>
 
             {/* Image */}
-            <div>
-                <img
-                    src={processEnv + albums[albumIndex].imgPath}
-                    width="100%"
-                    height="auto"
-                    alt={"The album cover image of " + albums[albumIndex].name}
-                />
+            <div 
+                //Click: Change Play Icon Opacity
+                onMouseDown={() => {
+                    playIconContainer.current.children[0].style.opacity = 1;
+                }}
+                //Click Stop: Revert Play Icon Opacity
+                onMouseUp={() => {
+                    playIconContainer.current.children[0].style.opacity = 0.8;
+                }}
+
+                //Hover: Display Play Icon
+                onMouseEnter={() => {
+                    //
+                }}
+                //Leave: Stop Displaying Play Icon
+                onMouseLeave={() => {
+                    //
+                }}>
+
+                {/* Url */}
+                <a href={albums[albumIndex].url}>
+                    <img
+                        src={processEnv + albums[albumIndex].imgPath}
+                        width="100%"
+                        height="auto"
+                        alt={"The album cover image of " + albums[albumIndex].name}
+                    />
+
+                    {/* Play Icon */}
+                    <div ref={playIconContainer}>
+                        <BiPlayCircle
+                            size="50%"
+                        />
+                    </div>
+                </a>
             </div>
 
             {/* Right Button */}
