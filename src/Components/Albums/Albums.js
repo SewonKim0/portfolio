@@ -58,17 +58,8 @@ export default function Albums() {
                 //Click Stop: Revert Play Icon Opacity
                 onMouseUp={() => {
                     playIconContainer.current.children[0].style.opacity = 0.8;
-                }}
-
-                //Hover: Display Play Icon
-                onMouseEnter={() => {
-                    //
-                }}
-                //Leave: Stop Displaying Play Icon
-                onMouseLeave={() => {
-                    //
                 }}>
-
+                
                 {/* Url */}
                 <a href={albums[albumIndex].url}>
                     <img
