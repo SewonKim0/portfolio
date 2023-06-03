@@ -12,5 +12,9 @@
     "react": "/Images/Icons/react.webp",
     "ts": "/Images/Icons/ts.png",
     "vs": "/Images/Icons/vs.webp",
-    "vscode": "/Images/Icons/vscode.png"
+    "vscode": "/Images/Icons/vscode.png",
+    "bootstrap": "/Images/Icons/bootstrap.png",
+    "eclipse": "/Images/Icons/eclipse.png",
+    "php": "/Images/Icons/php.png",
+    "sass": "/Images/Icons/sass.webp"
 }
