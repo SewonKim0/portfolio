@@ -3,6 +3,7 @@ div#navbar {
     width: 94%;
     height: 3em;
     backdrop-filter: blur(3px);
+    z-index: 999;
 
     position: sticky;
     top: 0%;
