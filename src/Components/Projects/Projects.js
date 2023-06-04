@@ -1,9 +1,13 @@
 import "./Projects.css"
 import { useState, useEffect } from "react";
+import { BiChevronsDown, BiChevronsUp } from "react-icons/bi";
 
 export default function Projects({iconMap}) {
     //process env
     let processEnv = process.env.PUBLIC_URL;
+
+    //state: show all projects
+    const [showAll, setShowAll] = useState(false);
 
     //state: projects
     const [projects, setProjects] = useState(null);
@@ -21,12 +25,58 @@ export default function Projects({iconMap}) {
     if (projects === null) {
         return <p> Loading Projects... </p>;
     }
+    
+    //if there are 3 or less projects: display all projects
+    if (projects.length <= 3) {
+        return <div id="projects" className="nav-source">
+            {/* Header */}
+            <h3> Projects: </h3>
+
+            {/* All Projects */}
+            <div>
+                {projects.map((project, index) => {
+                    return <Project
+                        project={project}
+                        iconMap={iconMap}
+                        key={index}
+                    />
+                })}
+            </div>
+        </div>
+    }
 
     return <div id="projects" className="nav-source">
         {/* Header */}
         <h3> Projects: </h3>
 
-        {/* Project List */}
+        {!showAll ?
+        //show first 3 projects
+        <div>
+            {projects.map((project, index) => {
+                return index < 3 ?
+                //if first 3 projects: use
+                <Project
+                    project={project}
+                    iconMap={iconMap}
+                    key={index}
+                /> : 
+                //else: dont use
+                null;
+            })}
+
+            {/* See More Icon */}
+            <div
+                id="icon"
+                onClick={() => {
+                    //set show all
+                    setShowAll(true);
+                }}>
+                <BiChevronsDown
+                    size="3em"
+                />
+            </div>
+        </div> :
+        //show all projects
         <div>
             {projects.map((project, index) => {
                 return <Project
@@ -35,7 +85,19 @@ export default function Projects({iconMap}) {
                     key={index}
                 />
             })}
-        </div>
+
+            {/* See Less Icon */}
+            <div 
+                id="icon"
+                onClick={() => {
+                    //set showAll
+                    setShowAll(false);
+                }}>
+                <BiChevronsUp
+                    size="3em"
+                />
+            </div>
+        </div>}
     </div>
 }
 
