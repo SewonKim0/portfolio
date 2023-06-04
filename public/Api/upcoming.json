@@ -11,5 +11,12 @@
         "description": "Web-based music player for streaming and uploading music, to be released in the fall",
         "url": false,
         "urlPath": ""
+    },
+
+    {
+        "name": "Leetcode Learn",
+        "description": "Website dedicated to teaching leetcode problems to beginners and advanced coders alike, to be released in the fall",
+        "url": false,
+        "urlPath": ""
     }
 ]

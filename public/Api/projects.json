@@ -19,5 +19,35 @@
             "cs", "vs"
         ],
         "url": "https://github.com/SewonKim0/QuickNotes2"
+    },
+
+    {
+        "name": "QuickNotes 3",
+        "text": "Lightweight variation of QuickNotes2 that utilizes user's file system to minimize application complexity",
+        "imgPath": "/Images/Projects/quicknotes3.png",
+        "icons": [
+            "cs", "vs"
+        ],
+        "url": "https://github.com/SewonKim0/QuickNotes3"
+    },
+
+    {
+        "name": "Memory Trainer",
+        "text": "Old website dedicated to helping students memorize large amounts of information when studying for coursework, utilizes basic javascript to help user add/remove (key: description) pairs to memorize",
+        "imgPath": "/Images/Projects/memory-trainer.png",
+        "icons": [
+            "js", "html", "css"
+        ],
+        "url": "https://sewonkim0.github.io/MemoryTrainer/"
+    },
+
+    {
+        "name": "Sewon Kim",
+        "text": "My old portfolio website made with only html and css (warning: bad design)",
+        "imgPath": "/Images/Projects/sewonkim.png",
+        "icons": [
+            "html", "css"
+        ],
+        "url": "https://sewonkim0.github.io/SewonKim/"
     }
 ]
