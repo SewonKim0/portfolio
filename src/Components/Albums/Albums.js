@@ -65,7 +65,7 @@ export default function Albums() {
                     <img
                         src={processEnv + albums[albumIndex].imgPath}
                         width="100%"
-                        height="auto"
+                        height="100%"
                         alt={"The album cover image of " + albums[albumIndex].name}
                     />
 

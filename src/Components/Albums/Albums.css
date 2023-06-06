@@ -34,6 +34,7 @@ div#albums > div#window > button:hover {
 /* Albums: Image */
 div#albums > div#window > div {
     width: 80%;
+    height: 13em;
     border: 1px solid white;
 
     position: relative;
@@ -42,6 +43,10 @@ div#albums > div#window > div {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+div#albums > div#window > div > a {
+    width: 100%;
+    height: 100%;
 }
 
 /* Albums: Play Icon */
@@ -112,5 +117,9 @@ div#albums > div#text > p {
 @media (min-width: 1100px) {
     div#albums {
         width: 50%;
+    }
+    /* Image: Resize */
+    div#albums > div#window > div {
+        height: 15em;
     }
 }
