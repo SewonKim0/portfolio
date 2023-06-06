@@ -43,7 +43,7 @@ div#category > div > div {
     border-radius: 0.3em;
     border: 1px solid white;
 
-    margin-right: 1em;
+    margin-right: 0.8em;
 
     overflow: hidden;
     display: flex;
@@ -64,6 +64,10 @@ div#category > div > div > img:hover {
     div#category > div > div {
         width: 1.7em;
         height: 1.7em;
+    }
+    /* Icon: Spacing Adjust */
+    div#category > div > div {
+        margin-right: 1em;
     }
 }
 @media (min-width: 800px) {
