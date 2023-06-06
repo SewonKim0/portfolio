@@ -113,6 +113,10 @@ div#albums > div#text > p {
 
         margin-left: 10%;
     }
+    /* Image: Resize */
+    div#albums > div#window > div {
+        height: 15em;
+    }
 }
 @media (min-width: 1100px) {
     div#albums {
@@ -120,6 +124,6 @@ div#albums > div#text > p {
     }
     /* Image: Resize */
     div#albums > div#window > div {
-        height: 15em;
+        height: 16em;
     }
 }
